@@ -1,0 +1,676 @@
+/*** reset ***/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+
+}
+
+.container {
+	/*height: 4676px;
+	width: 1920px;*/
+	padding: 0px;
+
+}
+
+.header {
+	/*width: 1920px;*/
+	height: 150px;
+	background: #424d54;
+       
+}
+
+
+.navigation {
+  list-style: none;
+  margin: 0px;
+  padding: 49px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 0px;
+  float: right;
+}
+.navigation div {
+    display:inline;
+}
+.navigation a {
+    display:inline-block;
+    padding:25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    box-sizing: border-box;
+    float: left;
+}
+.navigation a:hover {
+        border: solid;
+        border-width: 1px;
+        color: #4894b7;
+}
+#image {
+	
+	        background: url("images/website-logo.png") no-repeat;
+          display: block;
+          position: absolute;
+          left: 143px;
+          top: 46px;
+          margin: 16px;
+}
+
+
+
+.hero-image {
+  background: url("images/image.png") no-repeat;
+    padding: 130px 0px;
+    text-align: center;
+}
+
+.hero-image h1 {
+
+	color: #000;
+	font-weight: 100;
+	font-size: 45px;
+  text-align: center;
+	font-family: "Helvetica";
+  background-color: rgba(72,83,91,0.8);
+  display: inline;
+  line-height: 1.1;
+}
+
+.services {
+	height: 247px;
+	/*width: 1920px;*/
+	background: #4bcaff;
+	margin: 0px 0px 0px 0px;
+  padding: 60px 0;
+
+}
+
+ h2 {
+	  color: #fff;
+    font-family: "Helvetica";
+    font-weight: 100;
+    letter-spacing: normal;
+    padding-bottom: 3px;
+    font-size: 30px;
+}
+
+.line {
+     position: relative;
+}
+.line:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #fff;
+  content: "";
+}
+
+ .blocks img {
+      display: inline-block;
+      float: left;
+        padding: 9px 228px 14px 0px;
+      margin: 9px;
+   
+   }
+
+
+.menu li {
+      
+      font-size: 24px;
+      font-family: "Helvetica";
+      float: left; 
+      width: 25%;
+      display: inline-block;
+      overflow: hidden;
+
+ }
+
+.menu {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 100;
+
+
+}
+.text-menu li {
+  font-size: 12px;
+  font-family: "Helvetica";
+  float: left;
+  width: 22%;
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 35px;
+line-height: 1.5;
+
+}
+.text-menu {
+  color: #fff;
+  font-weight: 100;
+}
+
+
+.all {
+   list-style: none;
+  padding: 0px 48px 0px 0px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 0px;
+  float: right;
+
+}
+
+
+ 
+
+.bottomnavigation {
+  height: 247px;
+  margin:  -7px 14px 6px 1px;
+  padding: 60px 0;
+}
+
+
+.bottomnavigation div {
+    display:inline;
+}
+.bottomnavigation a {
+   
+  display:inline-block;
+    padding:25px;
+    color: #757f85;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    box-sizing: border-box;
+    float: right;
+      font-size: 13px;
+  margin-left: 8px;
+}
+
+.line2 {
+     position: relative;
+}
+.line2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #515f67;
+  content: "";
+}
+
+ h3 {
+  color: #515f67;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+}
+.bottomnavigation a:hover {
+        border: solid;
+        border-width: 1px;
+        color: #4894b7;
+      }
+
+
+.photoblocks1 {
+   float: left; 
+   margin-right: 25px;
+     margin-top: 81px;
+
+   }
+
+
+
+   .section {
+ 
+  height: 247px;
+  /*width: 1920px;*/
+  background: #515f67;
+  margin: 450px 0px 0px 0px;
+  padding: 112px 0;
+}
+.line3 {
+     position: relative;
+}
+.line3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #fff;
+  content: "";
+}
+
+ h4 {
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+}
+
+.text1 li {
+ list-style: none;
+  padding: 0;
+  margin: 34px 0 22px 0px;
+  text-indent: 0;
+  width: 454px;
+  height: 60px;
+  line-height: 1.5;
+}
+.text1 {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+
+.button {
+    display:inline-block;
+  
+    color: #353f46;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    box-sizing: border-box;
+    float: left;
+    padding: 6px 28px;
+    font-size: 13px;
+    border: 1px solid #353f46;
+}
+
+.button:hover {
+  border: solid;
+        border-width: 1px;
+        color: #4894b7;
+        
+      }
+#player  {
+  position: absolute;
+  right: 199px;
+  top: 1754px;
+}
+       
+.twitter {
+ 
+ height: 204px;
+  /*width: 1920px;*/
+  background: #4bcaff;
+  margin: 0px 0px 0px 0px;
+  padding: 60px 0;
+}
+
+.line4 {
+     position: relative;
+}
+.line4:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #fff;
+  content: "";
+}
+
+ h5 {
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+}
+
+.text-twitter p {
+   color: #fff;
+   font-weight: 100;
+   font-size: 25px;
+   margin-top: 31px;
+   font-family: "Helvetica"
+}
+
+.text-twitter p {
+line-height: 2;
+}
+
+.text-twitter a {
+  font-size:25px;
+    color:#fff; 
+    font-weight:100;
+}
+
+#twitter {
+  padding-right: 76px;
+  float: right;
+
+}
+
+
+.john {
+  background: url("images/photo9.jpg") no-repeat;
+   height: 247px;
+  /*width: 1920px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 112px 0; 
+    
+}
+
+.line5 {
+     position: relative;
+}
+.line5:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #fff;
+  content: "";
+}
+
+  p {
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+}
+
+.text2 li {
+  
+  padding: 0;
+  margin: 39px 45px 22px 0px;
+  text-indent: 0;
+  width: 456px;
+  height: 47px;
+  line-height: 2;
+  display: inline-block;
+
+}
+.text2 {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+.icons{
+    margin-right: 262px;
+  margin-top: -72px;
+
+
+
+}
+.icons a {
+    display:inline-block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    box-sizing: border-box;
+    float: right;
+    border: solid 1px #fff;
+    margin: 7px;
+}
+.icons a:hover {
+        border: solid;
+        border-width: 1px;
+        color: #4894b7;
+}
+
+.testimonials {
+    background: #fff;
+   height: 217px;
+  /*width: 1920px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 112px 0; 
+    
+}
+
+.line6 {
+     position: relative;
+}
+.line6:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #515f67;
+  content: "";
+}
+ .line6  {
+  color: #515f67;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+
+}
+
+.text3 li {
+
+  padding: 0;
+  margin: 34px 90px 0px 0px;
+  text-indent: 0;
+  line-height: 2;
+  display: inline-block;
+
+
+}
+.text3 {
+  color: #515f67;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 24px;
+}
+.text2-2  {
+  color: #86d8ff;
+  font-size: 14px;
+}
+
+#commas {
+  padding-right: 76px;
+  float: right;
+
+}
+
+
+.contact {
+    background: url("images/photo10.jpg") no-repeat;
+     height: 620px;
+  /*width: 1920px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 60px 0;
+    
+}
+
+.line7 {
+     position: relative;
+}
+.line7:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15px;
+  background: #fff;
+  content: "";
+}
+ .line7  {
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 100;
+  letter-spacing: normal;
+  padding-bottom: 3px;
+  font-size: 30px;
+
+}
+
+.name {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 13px;
+
+}
+.name  {
+    padding: 35px 123px;
+  margin: 3px;
+  display: inline-block;
+}
+
+.figure1 {
+     width: 470px;
+  height: 60px;
+    border: solid 1px #fff;
+      margin: -28px 123px;
+
+}
+.email {
+    color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+.email {
+  padding: 35px 123px;
+  margin: 3px;
+  display: inline-block;
+}
+.figure2 {
+     width: 470px;
+  height: 60px;
+    border: solid 1px #fff;
+      margin: -28px 123px;
+
+}
+.text4 li {
+
+  padding: 50px 125px 0px;
+  text-indent: 0;
+  line-height: 2;
+  display: inline-block;
+  float: right;
+  width: 600px;
+}
+
+.text4 {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 14px;
+}
+
+.message {
+    color: #fff;
+  font-weight: 100;
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+.message {
+  padding: 35px 123px;
+  margin: 3px;
+  display: inline-block;
+}
+.figure3 {
+     width: 1167px;
+  height: 221px;
+    border: solid 1px #fff;
+      margin: -28px 123px;
+
+}
+
+
+
+.button-message {
+  width: 365px;
+  height: 60px;
+  background: #4fc4f6;
+  
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 63px;
+  text-decoration: none;
+   margin: 64px 123px;
+   font-size: 14px;
+}
+
+.button-message {
+  font-family: "Helvetica"
+
+}
+
+.button-message:hover  {
+  background: #399ac3;
+  color: #e1e4e6;
+
+}
+.bottom {
+    background: #353f47;
+   height: 169px;
+  /*width: 1920px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0; 
+    
+}
+
+
+
+ 
+
+.links {
+  
+  margin:  -7px 14px 6px 1px;
+  padding: 60px 0;
+}
+
+
+.links div {
+    display:inline;
+}
+.links a {
+   
+  display:inline-block;
+    padding:25px;
+    color: #515f67;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    box-sizing: border-box;
+    float: left;
+      font-size: 13px;
+      border-right:1px solid #515f67;
+  
+}
+
+.links {
+   list-style: none;
+   
+  text-align: right;
+  font-size: 13px;
+  line-height: 0px;
+  float: left;
+
+}
+.links a:hover {
+        
+        color: #4894b7;
+}
