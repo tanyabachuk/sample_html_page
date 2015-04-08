@@ -1,0 +1,85 @@
+/*** reset ***/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+	width: 275px;
+	height: 150px;
+	background: #42494f;
+}
+
+.top {
+	height: 45px;
+	background: #dd4e4e;
+}
+
+.toptext {
+	color: #fff;
+	text-align: center;
+	padding: 13px;
+	font-family: "Helvetica";
+    
+}
+.toptext {
+	font-size: 17px;
+	font-weight: 100;
+}
+
+
+.emailline {
+	height: 30px;
+	width: 245px;
+	background: #fff;
+	margin: 14px;
+}
+
+.emailtext  {
+	color: #b8bbbe;
+	font-style: oblique;
+	padding: 9px;
+	font-family: "Helvetica";
+	font-size: 13px;
+}
+
+.mail {
+  position: absolute;
+  left: 237px;
+  top: 68px;
+
+}
+
+
+.mail a:hover {
+    color: #1a4e95;
+}
+
+
+.button {
+	height: 30px;
+	width: 245px;
+	background: #dd4e4e;
+	margin: 14px;
+}
+
+.buttontext {
+    padding: 7px 0px 0px 75px;
+}
+
+.buttontext a {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Helvetica";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 100;
+    
+}
+
+.buttontext a:hover {
+  color: #481414;
+}
+
